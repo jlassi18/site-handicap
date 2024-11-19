@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Foods</title>
+    <link rel="stylesheet" href="alimentation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Recommended Foods by Condition</h1>
+        <p>Discover beneficial foods for each type of disability to support health and well-being.</p>
+        <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    </header>
+
+    <main>
+        <!-- Physical Disability Section -->
+        <section id="handicap-physique" class="food-section" onclick="toggleDetails('physique-details')">
+            <img src="images/protein-food.jpg" alt="Physical Disability - Recommended Foods">
+            <div class="content">
+                <h2><i class="fas fa-dumbbell"></i> Physical Disability</h2>
+                <p>Foods rich in protein to strengthen muscles and improve mobility.</p>
+            </div>
+            <div class="details" id="physique-details">
+                <ul>
+                    <li><strong>Lean meats (chicken, turkey)</strong>: Provide protein for muscle rebuilding.</li>
+                    <li><strong>Eggs</strong>: Contain essential amino acids for muscle repair and recovery.</li>
+                    <li><strong>Legumes (lentils, chickpeas)</strong>: Plant-based protein and fiber sources for digestion.</li>
+                    <li><strong>Salmon</strong>: Provides omega-3 fatty acids that reduce inflammation and promote healing.</li>
+                    <li><strong>Quinoa</strong>: Contains complete proteins and complex carbohydrates for energy.</li>
+                    <li><strong>Tofu</strong>: High in protein and calcium, beneficial for bone strength.</li>
+                    <li><strong>Almonds</strong>: Rich in vitamin E, which supports muscle health and recovery.</li>
+                    <li><strong>Avocados</strong>: Rich in healthy fats, essential for joint lubrication and mobility.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Visual Disability Section -->
+        <section id="handicap-visuel" class="food-section" onclick="toggleDetails('visuel-details')">
+            <img src="images/vitamin-a-food.jpg" alt="Visual Disability - Recommended Foods">
+            <div class="content">
+                <h2><i class="fas fa-eye"></i> Visual Disability</h2>
+                <p>Foods rich in Vitamin A for eye health and vision.</p>
+            </div>
+            <div class="details" id="visuel-details">
+                <ul>
+                    <li><strong>Carrots and sweet potatoes</strong>: Rich in beta-carotene for improved night vision.</li>
+                    <li><strong>Spinach and leafy greens</strong>: Contain lutein, which protects against eye degeneration.</li>
+                    <li><strong>Red peppers and apricots</strong>: Sources of Vitamin C and E, antioxidants to prevent eye damage.</li>
+                    <li><strong>Fish oil</strong>: Provides omega-3 fatty acids that protect against dry eye syndrome.</li>
+                    <li><strong>Eggs</strong>: Provide lutein and zeaxanthin, nutrients beneficial for eye health.</li>
+                    <li><strong>Blueberries</strong>: High in antioxidants that help maintain healthy vision.</li>
+                    <li><strong>Tomatoes</strong>: Rich in lycopene, which protects the retina from damage.</li>
+                    <li><strong>Pumpkin</strong>: A source of beta-carotene for better vision and eye health.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Auditory Disability Section -->
+        <section id="handicap-auditif" class="food-section" onclick="toggleDetails('auditif-details')">
+            <img src="images/vitamin-b12-food.jpg" alt="Auditory Disability - Recommended Foods">
+            <div class="content">
+                <h2><i class="fas fa-volume-up"></i> Auditory Disability</h2>
+                <p>Foods rich in Vitamin B12 and folate for auditory health.</p>
+            </div>
+            <div class="details" id="auditif-details">
+                <ul>
+                    <li><strong>Fatty fish</strong> (salmon, tuna): Sources of Vitamin D and omega-3s to reduce the risk of ear infections.</li>
+                    <li><strong>Dairy products</strong> (milk, cheese): Rich in calcium and Vitamin D for healthy bones and inner ears.</li>
+                    <li><strong>Leafy greens</strong> (broccoli, spinach): Provide folate, essential for auditory and nerve function.</li>
+                    <li><strong>Nuts and seeds</strong>: Sources of magnesium that protect the inner ear from noise damage.</li>
+                    <li><strong>Bananas</strong>: Rich in potassium, which helps maintain fluid balance in the inner ear.</li>
+                    <li><strong>Shellfish</strong> (oysters, clams): Rich in zinc, essential for hearing health.</li>
+                    <li><strong>Carrots</strong>: Help prevent hearing loss and improve ear health due to Vitamin A content.</li>
+                    <li><strong>Beets</strong>: Known to help with blood circulation to the inner ear, supporting hearing function.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Intellectual Disability Section -->
+        <section id="handicap-intellectuel" class="food-section" onclick="toggleDetails('intellectuel-details')">
+            <img src="images/antioxidant-food.jpg" alt="Intellectual Disability - Recommended Foods">
+            <div class="content">
+                <h2><i class="fas fa-brain"></i> Intellectual Disability</h2>
+                <p>Antioxidants to support mental health and improve cognition.</p>
+            </div>
+            <div class="details" id="intellectuel-details">
+                <ul>
+                    <li><strong>Berries</strong> (blueberries, strawberries): Rich in antioxidants that reduce inflammation and improve memory.</li>
+                    <li><strong>Nuts</strong> (walnuts, almonds): Sources of omega-3 fatty acids, essential for cognitive health.</li>
+                    <li><strong>Leafy greens</strong> (kale, spinach): Rich in folate and Vitamin K, enhancing cognitive function.</li>
+                    <li><strong>Turmeric</strong>: Contains curcumin, an anti-inflammatory compound beneficial for brain health.</li>
+                    <li><strong>Avocados</strong>: Provide Vitamin E, which protects brain cells from oxidative stress.</li>
+                    <li><strong>Dark chocolate</strong>: Contains flavonoids that enhance memory and cognitive function.</li>
+                    <li><strong>Eggs</strong>: Contain choline, which supports brain development and function.</li>
+                    <li><strong>Green tea</strong>: Contains L-theanine, which helps improve focus and mental clarity.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Mental Disability Section -->
+        <section id="handicap-mental" class="food-section" onclick="toggleDetails('mental-details')">
+            <img src="images/food-brain.jpg" alt="Mental Disability - Recommended Foods">
+            <div class="content">
+                <h2><i class="fas fa-head-side-brain"></i> Mental Disability</h2>
+                <p>Foods that promote brain function and mental well-being.</p>
+            </div>
+            <div class="details" id="mental-details">
+                <ul>
+                    <li><strong>Oats</strong>: A great source of complex carbohydrates for steady energy release, supporting mental focus.</li>
+                    <li><strong>Salmon</strong>: High in omega-3 fatty acids, which are crucial for brain function and mood regulation.</li>
+                    <li><strong>Dark chocolate</strong>: Contains flavonoids and antioxidants that improve memory and mood.</li>
+                    <li><strong>Pumpkin seeds</strong>: Packed with magnesium and zinc, which promote nerve function and mental clarity.</li>
+                    <li><strong>Broccoli</strong>: Rich in Vitamin K, which plays a vital role in cognitive function and brain health.</li>
+                    <li><strong>Chia seeds</strong>: Contain omega-3s and fiber that support brain function and reduce anxiety.</li>
+                    <li><strong>Peanut butter</strong>: Rich in healthy fats and protein, supporting cognitive health.</li>
+                    <li><strong>Oranges</strong>: High in Vitamin C, which reduces stress and boosts mental clarity.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Website for People with Disabilities in Saudi Arabia. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleDetails(id) {
+            const details = document.getElementById(id);
+            if (details.style.display === "block") {
+                details.style.display = "none";
+            } else {
+                details.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>

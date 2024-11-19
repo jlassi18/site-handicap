@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adapted Physical Exercises</title>
+    <link rel="stylesheet" href="exercices.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Adapted Physical Exercises</h1>
+        <p>Gentle exercise suggestions for each type of disability.</p>
+        <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    </header>
+
+    <main>
+        <!-- Physical Disability -->
+        <section id="physique" class="exercise-section" onclick="toggleDetails('physique-details')">
+            <img src="images/swimming.jpg" alt="Swimming - Physical Disability">
+            <div class="content">
+                <h2><i class="fas fa-swimmer"></i> Physical Disability</h2>
+                <p>Swimming to strengthen muscles gently and improve flexibility.</p>
+            </div>
+            <div class="details" id="physique-details">
+                <ul>
+                    <li><strong>Swimming</strong>: A gentle exercise that helps strengthen muscles and improve flexibility without putting pressure on the joints.</li>
+                    <li><strong>Assisted Walking</strong>: A great way to strengthen leg muscles while increasing mobility.</li>
+                    <li><strong>Stationary Bike</strong>: Ideal for people with joint problems, providing low-impact exercise for the legs.</li>
+                    <li><strong>Gentle Stretching</strong>: A flexibility exercise that improves mobility and muscle suppleness.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sensory Disability -->
+        <section id="sensoriel" class="exercise-section" onclick="toggleDetails('sensoriel-details')">
+            <img src="images/yoga.jpg" alt="Yoga - Sensory Disability">
+            <div class="content">
+                <h2><i class="fas fa-spa"></i> Sensory Disability</h2>
+                <p>Yoga and breathing exercises for mental well-being.</p>
+            </div>
+            <div class="details" id="sensoriel-details">
+                <ul>
+                    <li><strong>Adaptive Yoga</strong>: Gentle poses and breathing exercises to improve flexibility, concentration, and mental well-being.</li>
+                    <li><strong>Guided Meditation</strong>: Helps with mental relaxation and stress management, especially beneficial for individuals with sensory impairments.</li>
+                    <li><strong>Deep Breathing Exercises</strong>: Improves blood circulation and reduces anxiety.</li>
+                    <li><strong>Therapeutic Massage</strong>: Promotes relaxation and relieves muscle tension related to sensory disorders.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Intellectual Disability -->
+        <section id="intellectuel" class="exercise-section" onclick="toggleDetails('intellectuel-details')">
+            <img src="images/dance.jpg" alt="Adapted Dance - Intellectual Disability">
+            <div class="content">
+                <h2><i class="fas fa-brain"></i> Intellectual Disability</h2>
+                <p>Gentle and playful exercises like adapted dance and gardening.</p>
+            </div>
+            <div class="details" id="intellectuel-details">
+                <ul>
+                    <li><strong>Adapted Dance</strong>: A fun physical activity that improves coordination and memory while providing cardiovascular benefits.</li>
+                    <li><strong>Therapeutic Gardening</strong>: Promotes concentration, patience, and offers an excellent way to connect with nature.</li>
+                    <li><strong>Physical Memory Games</strong>: Fun activities to improve memory while staying physically active.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Psychological Disability -->
+        <section id="psychologique" class="exercise-section" onclick="toggleDetails('psychologique-details')">
+            <img src="images/walking.jpg" alt="Walking - Psychological Disability">
+            <div class="content">
+                <h2><i class="fas fa-walking"></i> Psychological Disability</h2>
+                <p>Assisted walking and meditation for mental relaxation.</p>
+            </div>
+            <div class="details" id="psychologique-details">
+                <ul>
+                    <li><strong>Assisted Walking</strong>: A gentle physical activity that reduces stress and improves mental health, easy to adapt.</li>
+                    <li><strong>Mindfulness Meditation</strong>: Practice for anxiety reduction and stress management in individuals with psychological disabilities.</li>
+                    <li><strong>Muscle Relaxation Exercises</strong>: Techniques for relieving physical and psychological tension.</li>
+                    <li><strong>Therapeutic Yoga</strong>: Promotes mental balance and physical relaxation, ideal for reducing stress and anxiety symptoms.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Website for Disabled People in Saudi Arabia. All rights reserved.</p>
+    </footer>
+
+    <script src="exercices.js"></script>
+
+</body>
+</html>

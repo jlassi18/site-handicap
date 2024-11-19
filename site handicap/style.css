@@ -1,0 +1,157 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F7FA; /* Light, neutral background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background-color: #1E2A47; /* Sleek dark blue for trust and professionalism */
+    color: white;
+    padding: 1.5em 0.5em; /* Reduced padding */
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+header h1 {
+    font-size: 2.2em; /* Smaller font size */
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 0.5em;
+    font-size: 1.1em; /* Slightly smaller font size */
+    font-weight: 300;
+}
+
+/* Content Section Styling */
+.content-section {
+    background-color: #FFFFFF; /* Clean white background for sections */
+    margin-bottom: 2em;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+margin-top: 3em;
+}
+
+.content-section h2 {
+    font-size: 1.6em;
+    color: #1E2A47; /* Dark blue for headers to match the sleek header */
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8em;
+}
+
+.content-section p {
+    font-size: 1em; /* Slightly smaller font size */
+    line-height: 1.5; /* Adjusted line height */
+    color: #555;
+}
+
+.content-section ul {
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.content-section ul li {
+    margin-bottom: 1em;
+}
+
+.content-section a {
+    color: #1E2A47; /* Dark blue for links */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.content-section a:hover {
+    color: #1E2A47; /* Dark blue color on hover */
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #E9EFF1;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
+.cta-section h2 {
+    font-size: 2.2em;
+    margin-bottom: 1em;
+}
+
+.cta-section p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    background-color: #FFFFFF; /* White background for the button */
+    color: #1E2A47; /* Dark blue text for contrast */
+    text-decoration: none;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    border: 2px solid #1E2A47; /* Adding a border to match the header color */
+}
+
+.cta-button:hover {
+    background-color: #16428E; /* Darker blue background on hover */
+    color: white; /* White text on hover */
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #1E2A47; /* Dark blue for footer to match header */
+    color: white;
+    text-align: center;
+    padding: 2em 1.5em;
+    width: 100%;
+    margin-top: 4em;
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-section {
+        padding: 1.5em;
+    }
+
+    .cta-button {
+        padding: 0.8em 1.5em;
+        font-size: 1em;
+    }
+
+    header h1 {
+        font-size: 2em; /* Smaller font size for header */
+    }
+
+    header p {
+        font-size: 1em; /* Smaller font size for subheading */
+    }
+}

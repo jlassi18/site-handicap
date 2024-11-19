@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations - Website for People with Disabilities in Saudi Arabia</title>
+    <link rel="stylesheet" href="donation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Make a Donation</h1>
+            <p>Help us improve the lives of people with disabilities in Saudi Arabia</p>
+        </div>
+        <nav>
+           <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Objectives Section -->
+        <section class="content-section objectives">
+            <h2>Our Goals</h2>
+            <p>With your donations, we aim to achieve the following goals to support people with disabilities:</p>
+            <ul>
+                <li>Increase access to adaptive medical equipment.</li>
+                <li>Improve the quality of available specialized care.</li>
+                <li>Provide support programs for families and caregivers.</li>
+                <li>Promote the inclusion of people with disabilities in society.</li>
+            </ul>
+        </section>
+
+        <!-- Donation Form -->
+        <section class="content-section donation-form">
+            <h2>Make a Donation</h2>
+            <p>Your donation will fund resources, equipment, and programs to support people with disabilities and their families.</p>
+
+            <form action="#" method="post">
+                <!-- Donor Information -->
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="number" name="amount" placeholder="Donation Amount (SAR)" required>
+
+                <!-- Payment Information -->
+                <h3>Payment Information</h3>
+                <input type="text" name="card_number" placeholder="Card Number" required>
+                <input type="text" name="card_name" placeholder="Name on Card" required>
+                <input type="text" name="expiry_date" placeholder="Expiry Date (MM/YY)" required>
+                <input type="text" name="cvv" placeholder="CVV" required>
+
+                <button type="submit" class="submit-btn"><i class="fas fa-donate"></i> Make a Donation</button>
+            </form>
+
+            <!-- Confirmation Message -->
+            <div class="confirmation-message" style="display: none;">
+                <p>Thank you for your donation! Your transaction has been confirmed, and a receipt has been sent to your email.</p>
+            </div>
+        </section>
+
+        <!-- Impact Section -->
+        <section class="content-section impact-info" id="impact">
+            <h2>Your Impact</h2>
+            <p>With your help, we can offer a better future for people with disabilities.</p>
+            <ul>
+                <li>Funding adaptive equipment</li>
+                <li>Access to specialized medical care</li>
+                <li>Support for families and caregivers</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Website for People with Disabilities in Saudi Arabia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

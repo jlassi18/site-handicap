@@ -1,0 +1,199 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5F7FA; /* Light, neutral background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1E2A47; /* Sleek dark blue for trust and professionalism */
+    color: white;
+    padding: 1.5em 0.5em; /* Reduced padding */
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+header h1 {
+    font-size: 2.2em; /* Smaller font size */
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 0.5em;
+    font-size: 1.1em; /* Slightly smaller font size */
+    font-weight: 300;
+}
+
+.back-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 1em;
+    display: inline-block;
+    position: relative; /* Make sure it's positioned correctly */
+}
+
+.back-link i {
+    margin-right: 0.5em;
+}
+
+main {
+    max-width:700px; /* Reduced max-width */
+    margin: -3em auto 1.5em; /* Reduced margins */
+    padding: 2em;
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-between; /* Space sections out evenly */
+    flex-wrap: wrap; /* Allow sections to wrap to the next row if needed */
+    gap: 1.5em; /* Reduced gap */
+}
+
+.food-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF; /* Clean white background for sections */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 2em; /* Reduced padding */
+    min-height: 280px; /* Slightly smaller height */
+    width: 100%; /* Set width for horizontal layout */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #E9EFF1; /* Light, cool gray for sections */
+    margin-top: 3em; /* Adds margin between the first section and the header */
+    border: 2px solid #1E2A47;
+}
+
+.food-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.food-section img {
+    width: 100%;
+    max-width: 500px; /* Reduced max-width of images */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.food-section img:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    padding: 1.2em; /* Slightly smaller padding */
+    text-align: center;
+    width: 100%;
+}
+
+.content h2 {
+    font-size: 1.6em; /* Smaller header font size */
+    color: #1E2A47; /* Dark blue for headers to match the sleek header */
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8em; /* Reduced margin */
+}
+
+.content h2 i {
+    margin-right: 0.8em;
+    color: #1E2A47;
+}
+
+.content p {
+    font-size: 1em; /* Slightly smaller font size */
+    line-height: 1.5; /* Adjusted line height */
+    color: #555;
+}
+
+.details {
+    display: none;
+    padding: 1.2em;
+    background-color: #F7F7F7;
+    border-top: 1px solid #ddd;
+    font-size: 1em;
+    color: #555;
+    max-height: 400px;
+    overflow-y: auto;
+    transition: max-height 0.3s ease-in-out;
+}
+
+/* Added the rule for subtitles in the details section */
+.details h3 {
+    color: black; /* Set the subtitle (h3) to black */
+    font-size: 1.4em; /* Slightly larger font size for the subtitles */
+    margin-bottom: 1em; /* Add some space below the subtitle */
+}
+
+.details ul {
+    padding-left: 1.5em;
+    list-style: disc;
+}
+
+footer {
+    background-color: #1E2A47; /* Dark blue for footer to match header */
+    color: white;
+    text-align: center;
+    padding: 2em 1.5em; /* Reduced padding */
+    width: 100%;
+    margin-top: 4em;
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+footer a {
+    color: #FFB84C; /* Soft gold for footer links to give a premium look */
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 1em;
+    display: inline-block;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #FF6F61; /* A touch of coral for interactive feel */
+}
+
+@media (max-width: 768px) {
+    .food-section {
+        width: 60%; /* Full width for smaller screens */
+        margin-bottom: 2em;
+    }
+
+    main {
+        padding: 1em;
+        flex-direction: column; /* Stack sections vertically on small screens */
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2em; /* Smaller font size for header */
+    }
+
+    header p {
+        font-size: 1em; /* Smaller font size for subheading */
+    }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Disabilities</title>
+    <link rel="stylesheet" href="types.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Types of Disabilities</h1>
+        <p>Explore various categories of disabilities and their unique characteristics.</p>
+
+      <nav>
+              <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i>Back To Home</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="physical" class="handicap-section" onclick="toggleDetails('physical-details')">
+            <img src="images/handicap-physique.jpg" alt="Physical Disability">
+            <div class="content">
+                <h2><i class="fas fa-wheelchair"></i> Physical Disability</h2>
+                <p>Disabilities affecting motor abilities, such as cerebral palsy or muscular dystrophy.</p>
+            </div>
+            <div class="details" id="physical-details">
+                <p>Physical disabilities encompass various motor limitations, often requiring technical aids such as wheelchairs, prosthetics, and rehabilitation to enhance mobility. Examples include:</p>
+                <ul>
+                    <li><strong>Cerebral Palsy</strong>: Affects muscle control and coordination, leading to motor impairments.</li>
+                    <li><strong>Muscular Dystrophy</strong>: Progressive weakening of muscles, impacting mobility and strength.</li>
+                    <li><strong>Amputations</strong>: Loss of limbs requiring prosthetic support for mobility.</li>
+                    <li><strong>Severe Arthritis</strong>: Joint pain that limits movement and daily activities.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sensory" class="handicap-section" onclick="toggleDetails('sensory-details')">
+            <img src="images/handicap-sensoriel.jpg" alt="Sensory Disability">
+            <div class="content">
+                <h2><i class="fas fa-eye-slash"></i> Sensory Disability</h2>
+                <p>Disabilities involving sensory organs, such as blindness or deafness.</p>
+            </div>
+            <div class="details" id="sensory-details">
+                <p>Sensory disabilities include vision and hearing loss, often aided by tools like hearing aids or white canes to enhance independence. Types include:</p>
+                <ul>
+                    <li><strong>Blindness</strong>: Inability to see, with support from braille readers and guide dogs.</li>
+                    <li><strong>Deafness</strong>: Hearing loss managed with hearing aids or cochlear implants.</li>
+                    <li><strong>Deafblindness</strong>: Combination of visual and hearing impairments, requiring specialized communication.</li>
+                    <li><strong>Loss of Taste or Smell</strong>: Reduction in these senses, often following illness.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="intellectual" class="handicap-section" onclick="toggleDetails('intellectual-details')">
+            <img src="images/handicap-intellectuel.jpg" alt="Intellectual Disability">
+            <div class="content">
+                <h2><i class="fas fa-brain"></i> Intellectual Disability</h2>
+                <p>Disabilities affecting cognitive abilities, such as Down syndrome or autism spectrum disorders.</p>
+            </div>
+            <div class="details" id="intellectual-details">
+                <p>Intellectual disabilities impact learning and understanding, with specialized educational programs supporting skill development. They include:</p>
+                <ul>
+                    <li><strong>Down Syndrome</strong>: Characterized by cognitive delays and distinct physical features.</li>
+                    <li><strong>Autism Spectrum Disorder</strong>: Affects social communication and repetitive behaviors.</li>
+                    <li><strong>Intellectual Impairment</strong>: Limitations in mental functions requiring educational support.</li>
+                    <li><strong>Dyspraxia</strong>: Difficulty with physical coordination and motor skills.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="psychological" class="handicap-section" onclick="toggleDetails('psychological-details')">
+            <img src="images/handicap-psychologique.jpg" alt="Psychological Disability">
+            <div class="content">
+                <h2><i class="fas fa-heart"></i> Psychological Disability</h2>
+                <p>Disabilities involving mental health conditions, such as anxiety or severe depression.</p>
+            </div>
+            <div class="details" id="psychological-details">
+                <p>Psychological disabilities encompass mood and anxiety disorders, where psychological support and treatments can improve quality of life. Examples include:</p>
+                <ul>
+                    <li><strong>Generalized Anxiety Disorder</strong>: Excessive and uncontrollable daily anxiety.</li>
+                    <li><strong>Severe Depression</strong>: Persistent sadness, often accompanied by a loss of interest in daily life.</li>
+                    <li><strong>Schizophrenia</strong>: Challenges with perception and thought, requiring medical treatment.</li>
+                    <li><strong>Obsessive-Compulsive Disorder (OCD)</strong>: Repetitive behaviors due to obsessive thoughts.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Disability Awareness in Saudi Arabia. All rights reserved.</p>
+    </footer>
+
+    <script src="types.js"></script>
+
+</body>
+</html>
